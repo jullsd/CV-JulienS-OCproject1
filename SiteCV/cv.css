@@ -1,0 +1,235 @@
+
+/* Mise en page BlocPage */
+.BlocPage {
+
+	display: flex;
+	flex-direction: column;
+	font-family:  Calibri,Arial,"Arial Black",Impact;
+	margin: auto;
+	width: 840px;
+	height: 1190px;
+	
+
+		
+
+}
+
+
+
+/* Organisation header */
+
+header {
+
+height: 27%;
+display: flex;
+background-color: #7451eb;
+
+}
+
+.Identity {
+  margin : 20px 45px 20px 90px;
+  display: flex;
+  flex-direction: column;
+ 
+  }
+
+
+header h1 {
+
+padding-left: 6px;
+font-size:  2.4em;
+color : #ffffff;
+
+
+}
+
+header h3 {
+
+
+position: relative;
+padding-left: 8px;
+bottom: 43px;
+
+
+}
+
+header Strong {
+
+	color : #203966;
+	 text-align: justify;
+	 background-color: #84e9a4;
+	 font-size: 1.2em;
+	 padding: 0px 4px 0 4px;
+}
+
+header p {
+
+
+	color: white;
+	font-size : 1.1em;
+	width: 310px;
+	position: relative;
+	bottom: 37px;
+	
+	
+
+	
+
+}
+
+
+
+
+header img {
+
+
+padding-top: 10%;
+height: 100%;
+width: 270px;
+
+
+}
+
+.Pictures {
+
+align-items: flex-end;
+}
+
+
+/* Organisation Section Skills */
+
+.Skills {
+	height: 32%;
+display: flex;
+background-color: #ffffff;
+align-items: center;
+
+
+}
+
+/*Mise en page logo */
+
+.fa-solid {
+
+
+margin: 0 92px 0 92px;
+	font-size: 7.5em;
+	 color:  #203966;
+
+}
+
+
+.Skills h3 {
+
+
+font-size: 1.6em;
+     color: #203966;
+    
+
+}
+
+.Skills Strong {
+
+     text-align: justify;
+	 background-color: #84e9a4;
+	 padding-right: 15px;
+	
+	
+
+}
+
+.Skills p , ul{
+	position: relative;
+	bottom: 13px;
+	font-size: 0.8em;
+color: #203966;
+margin-right: 60px;
+
+}
+
+
+
+
+
+
+/* Organisation footer */
+
+footer {
+	display: flex;
+	height: 23.5%;
+	flex-direction: column;
+	background-color: #203966;
+	justify-content: center;
+}
+
+.SocialMedia {
+
+
+		margin: 90px 90px 70px ;
+	}
+
+
+footer h1 {
+	padding-left: 2px;
+	margin-top: 50px;
+	color: #ffff;
+	font-size : 2.2em;
+
+
+}
+
+.Mail {
+
+font-size: 1.4em;
+text-decoration: none;
+color: #ffff;
+margin-left: 8px ;
+ position: relative;
+bottom: 24px;
+
+
+}
+
+footer mark { position: relative;
+	 font-size : 1.4em;
+      bottom: 24px;
+      color: #203966;
+      text-align: justify;
+	 background-color: #86eca5;
+	 padding: 2px 0 2px 1px;
+
+
+	}
+
+
+
+
+footer img {
+
+	
+	width: 63px;
+	height: 63px;
+	padding : 0 15px 10px 0;
+	margin : 0 5px 40px 0;
+	position: relative;
+	bottom: 10px;
+	
+
+
+}
+
+
+
+/* Alignement Icon footer */
+
+.Icon {
+
+	display: flex;
+
+
+}
+
+
+
+
+
